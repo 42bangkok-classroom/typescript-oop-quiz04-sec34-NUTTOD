@@ -12,7 +12,7 @@ export class MissionService {
   ];
 
   getSummary(): string[]{
-    const map = this.missions.map(missions => `${missions.status}`)
+    const map = this.missions.map((missions) =>`${missions.status}`);
     return map
   }
 }
